@@ -1,0 +1,24 @@
+{
+  "demoApp": {
+    "header": {
+      "home": {
+        "title": "Headers",
+        "createLabel": "Create a new Header",
+        "createOrEditLabel": "Create or edit a Header",
+        "search": "Search for Header",
+        "notFound": "No Headers found"
+      },
+      "created": "A new Header is created with identifier {{ param }}",
+      "updated": "A Header is updated with identifier {{ param }}",
+      "deleted": "A Header is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Header {{ id }}?"
+      },
+      "detail": {
+        "title": "Header"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  }
+}

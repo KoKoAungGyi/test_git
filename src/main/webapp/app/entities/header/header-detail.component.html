@@ -1,0 +1,26 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="header">
+            <h2><span jhiTranslate="demoApp.header.detail.title">Header</span> {{header.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="demoApp.header.code">Code</span></dt>
+                <dd>
+                    <span>{{header.code}}</span>
+                </dd>
+                <dt><span jhiTranslate="demoApp.header.description">Description</span></dt>
+                <dd>
+                    <span>{{header.description}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+        </div>
+    </div>
+</div>
